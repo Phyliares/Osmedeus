@@ -9,8 +9,8 @@ services:
         ports:
             - "8000:8000"
         volumes:
-            - osmedeusworkspaces:/root/.osmedeus/workspaces
+            - osmedeus_workspaces:/root/.osmedeus/workspaces
         environment:
             DEBUG: 'false'
 volumes:
-    osmedeusworkspaces:
+    osmedeus_workspaces:
